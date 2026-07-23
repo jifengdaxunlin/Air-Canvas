@@ -45,11 +45,13 @@ Run the main GUI application script:
 ```Bash
 python ui_run_app.py
 ```
-Hand gesture interactions:
+First, turn on the camera and capture/save the face image. Perform LBPH recognition; once verified, open the canvas for creation.
 
-Raise Index + Middle fingers and hover over top menu items for ~0.3 seconds to select.
+After opening the canvas, place your hand in front of the camera:
 
-Raise Index finger only to draw or erase freely inside the designated canvas region.
+Selection Mode: Extend your index and middle fingers, hovering over a top menu item for about 0.3 seconds to make a selection.
+
+Drawing Mode: Extend only your index finger to draw freely within the designated [Recommended Drawing Area] below.
 
 ---
 
